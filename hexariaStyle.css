@@ -22,6 +22,7 @@ nav.Hexaria-nav-bar {
     background: aqua url("Image/EggRelic.webp") repeat center center / cover;
     height: 50px;
     width: 100%;
+    border: 2px black solid;
 }
 
 li {
@@ -31,12 +32,14 @@ li {
 
 li a {
     text-decoration: none;
-    color: black;
+    font-weight: bold;
+    color: white;
 }
 
 li a:hover {
     text-decoration: none;
-    color: white;
+    font-weight: bold;
+    color: grey;
     cursor: pointer;
 }
 
@@ -45,7 +48,7 @@ section.Hexaria-Main-Part {
     flex-direction: row;
     align-content: center;
     justify-content: space-evenly;
-    background: brown url("Image/ExploreThumb.webp") no-repeat center center / cover;
+    background: brown url("Image/ExploreThumb.webp") repeat center center / 50%;
     height: calc(100vh - 50px);
     width: 100%;
     padding: 10px;
@@ -55,7 +58,7 @@ section.Hexaria-Main-Part {
 section.Hexaria-Info {
     width: 400px;
     height: 400px;
-    /* background-color: aquamarine; */
+    background-color: black;
     border: 2px black solid;
     padding: 10px;
 }
@@ -68,24 +71,28 @@ span.Enlarged-picture {
 
 div.Hexaria-Format-Stuff p {
     font-size: 25px;
+    font-weight: bold;
     margin-top: 5px;
     color: white;
 }
 
 div.Hexaria-Format-Stuff h1 {
     font-size: 35px;
+    font-weight: bold;
     margin-top: 2px;
     color: white;
 }
 
 section.Hexaria-Info h1 {
     font-size: 35px;
+    font-weight: bold;
     margin-top: 2px;
     color: white;
 }
 
 div.Hexaria-Info-Stuff p {
     font-size: 25px;
+    font-weight: bold;
     margin-top: 5px;
     color: white;
 }
@@ -93,7 +100,7 @@ div.Hexaria-Info-Stuff p {
 div.Hexaria-Format-Stuff {
     width: 400px;
     height: 400px;
-    /* background-color: chartreuse; */
+    background-color: black;
     border: 2px black solid;
     padding: 10px;
 }
