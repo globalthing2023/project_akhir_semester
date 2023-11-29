@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 section.Hexaria-Melee-Box {
@@ -15,6 +15,7 @@ section.Hexaria-Melee-Box {
     justify-items: center;
     width: 100vw;
     height: 100vh;
+    background-color: grey;
     border: 5px black solid;
     padding: 10px;
 }
@@ -23,12 +24,14 @@ section.Hexaria-Melee-Box div.pictures {
     height: 300px;
     width: 200px;
     background: violet url(MeleePictures/RoyalClaymore_Wikithx.webp) no-repeat center center / 100%;
+    border: 2px black solid;
 }
 
 section.Hexaria-Melee-Box section.Hexaria-Melee-Description {
     width: 300px;
     height: 200px;
     background-color: gold;
+    border: 2px black solid;
 }
 
 section.Hexaria-Melee-Box section.Hexaria-Melee-Description h1 {
@@ -51,6 +54,7 @@ section.Hexaria-melee-videoopinion {
     width: 400px;
     height: 200px;
     background-color: brown;
+    border: 2px black solid;
 }
 
 section.Hexaria-melee-videoopinion p {

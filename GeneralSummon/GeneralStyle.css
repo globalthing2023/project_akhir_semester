@@ -8,45 +8,45 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-section.Hexaria-Range-Box {
+section.Hexaria-Summon-Box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: green;
+    background-color: gainsboro;
     border: 5px black solid;
     padding: 10px;
 }
 
-section.Hexaria-Range-Box div.pictures {
+section.Hexaria-Summon-Box div.pictures {
     height: 300px;
     width: 200px;
-    background: violet url(RangePictures/Infinipievoid.png) no-repeat center center / 100%;
+    background: violet url(SummonPictures/Mercenary.webp) no-repeat center center / 100%;
     border: 2px black solid;
 }
 
-section.Hexaria-Range-Box section.Hexaria-Range-Description {
+section.Hexaria-Summon-Box section.Hexaria-Summon-Description {
     width: 300px;
     height: 200px;
     background-color: gold;
     border: 2px black solid;
 }
 
-section.Hexaria-Range-Box section.Hexaria-Range-Description h1 {
+section.Hexaria-Summon-Box section.Hexaria-Summon-Description h1 {
     text-align: center;
     font-weight: bold;
     margin-top: 2px;
 }
 
-section.Hexaria-Range-Box section.Hexaria-Range-Description p {
+section.Hexaria-Summon-Box section.Hexaria-Summon-Description p {
     text-align: center;
     font-weight: bold;
     margin-top: 10px;
 }
 
-section.Hexaria-range-videoopinion {
+section.Hexaria-summon-videoopinion {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,7 +57,7 @@ section.Hexaria-range-videoopinion {
     border: 2px black solid;
 }
 
-section.Hexaria-range-videoopinion p {
+section.Hexaria-summon-videoopinion p {
     font-weight: bold;
     text-align: center;
     font-size: 10px;
